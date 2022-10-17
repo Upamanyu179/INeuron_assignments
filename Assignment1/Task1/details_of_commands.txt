@@ -9,3 +9,36 @@
 
 4. git status
    show modified files in working directory, staged for your next commit
+
+5. git add [file]
+   add a file as it looks now to your next commit (stage)
+
+6. git branch
+   list your branches. a * will appear next to the currently active branch
+
+7. git branch [branch-name]
+   create a new branch at the current commit
+
+8. git commit -m “[descriptive message]”
+   commit your staged content as a new commit snapshot
+
+9. git remote add [alias] [url]
+   add a git URL as an alias
+
+10. git push [alias] [branch]
+   Transmit local branch commits to the remote repository branch
+
+11. git diff
+    diff of what is changed but not staged
+
+12. git diff --staged
+    diff of what is staged but not yet commited
+
+13. git log
+    show all commits in the current branch’s history
+
+14. git checkout
+    switch to another branch and check it out into your working directory
+
+15. git merge [branch]
+    merge the specified branch’s history into the current one
